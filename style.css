@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    top: 0;
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/hamburger.jpg); background-position: center;background-size: cover;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.navbar ul{
+    display: flex;
+    font-size: 22px;
+    list-style-type: none;
+    gap: 20px;
+}
+li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: grey;
+    border-radius: 10px;
+}
+.logo{
+    font-size: 22px ;
+    letter-spacing: 2px;
+    color: grey;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+} .logo a{
+cursor: pointer;    
+padding: 10px 15px;
+}
+.navbar a:hover{
+    background-color: #666;
+    color: #ffffff;
+}
+.text{
+    padding: 450px 34px;
+    font-size: 3.2rem;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: grey;
+}
+#About{
+padding: 4.5rem 5.5rem;
+margin: 0;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+}
+.text-content{
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 34px 30px;
+}
+.text-content h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom:60px;
+    color: grey;
+}
+.text-content h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: grey;
+}
+.text-content p{
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.text-content .grey{
+color: grey;
+line-height: 26px;
+}
+.content img{
+    height: 650px;
+}
+.btn{
+    font-size: 15px;
+    padding:5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Menu{
+    padding: 4.5rem 4.5rem;
+width: 100%;
+height: 100vh;
+}
+.menu-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-content img{
+    height: 700px;
+}
+.text-para{
+    margin-bottom: 100px;
+
+}
+.text-para h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom:60px;
+}
+.text-para h2{
+    font-size: 1.9rem;
+    font-weight: 100;
+    letter-spacing: 2.2px;
+}
+.text-para p{
+    font-size: 15px;
+    color: #666;
+    padding: 40px 0px;
+}
+#Contact{
+    padding: 4.5rem 4.5rem;
+
+}
+.contact-content h1{
+font-size: 2.6rem;
+font-weight: 100;
+margin-bottom: 27px;
+letter-spacing: 2.5px;
+color: black;
+}
+.contact-content h2{
+font-size: 1.6rem;
+font-weight: 100;
+margin-bottom: 15px;
+letter-spacing: 2.5px;
+color: black;
+}
+.contact-content p{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: grey;
+    letter-spacing: 2px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 15px 5px;
+    margin-bottom: 12px;
+    border: none;
+    border-bottom: 2px solid rgb(174, 168, 168);
+}
+input::placeholder{
+    font-size: 15px;
+}
+.btn1{
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(195, 195, 195);
+    padding: 15px 15px;
+    text-align: center;
+}
+footer p{
+    font-size: 18px;
+    color: #ffffff;
+}
+hr{
+    margin: 100px 0px;
+    color: #666;
+}
